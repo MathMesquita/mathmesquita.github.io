@@ -22,6 +22,7 @@ url: "http://mmesquita.me" # the base hostname & protocol for your site
 twitter_username: _mathmesquita
 github_username:  MathMesquita
 facebook_username: mathmesquita.168
+skype_username: matheus.mesquita168
 
 # Build settings
 markdown: kramdown
