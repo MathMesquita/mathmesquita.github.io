@@ -9,7 +9,9 @@
       <nav>
         <ul>
         {% for page in site.pages %}
-          <li><a href="#">{{ page.title }}</a></li>
+          {% if page.title %}
+            <li><a href="{{ page.url }}">&#123;&#123; {{ page.title }} &#125;&#125;</a></li>
+          {% endif %}
         {% endfor %}
         </ul>
       </nav>
