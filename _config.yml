@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mmesquita.me" # the base hostname & protocol for your site
 twitter_username: _mathmesquita
 github_username:  MathMesquita
-facebook_username: mathmesquita
+facebook_username: mathmesquita.168
 
 # Build settings
 markdown: kramdown
