@@ -1,10 +1,19 @@
+    
+    {% if page.color_template %}
+      <input type="checkbox" id="toggleHeader">
+      <label for="toggleHeader" id='toggleBtn'>
+        <div class="menu"></div>
+      </label>
+    {% endif %}
 
     <header>
       <div class="thumb">
-        <img src="assets/my-image.jpg" alt="">
+        <a href="">
+          <img src="/assets/my-image.jpg" alt="">
+        </a>
       </div>
       
-      <h1>{{ site.title | xml_escape }}</h1>
+      <a href="/"><h1>{{ site.title | xml_escape }}</h1></a>
       
       <nav>
         <ul>
@@ -20,16 +29,16 @@
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         <div class="social">
           <a href="https://www.facebook.com/{{ site.facebook_username }}">
-            <img class='icon' src="assets/facebook-logo-button.svg" alt="">
+            <img class='icon' src="/assets/facebook-logo-button.svg" alt="">
           </a>
           <a href="https://github.com/{{ site.github_username }}">
-            <img class='icon' src="assets/github-logo.svg" alt="">
+            <img class='icon' src="/assets/github-logo.svg" alt="">
           </a>
           <a href="https://twitter.com/{{ site.twitter_username }}">
-            <img class='icon' src="assets/twitter-logo-button.svg" alt="">
+            <img class='icon' src="/assets/twitter-logo-button.svg" alt="">
           </a>
           <a href="/sobre">
-            <img class='icon' src="assets/heart.svg" alt="">
+            <img class='icon' src="/assets/heart.svg" alt="">
           </a>
         </div>
       </footer>

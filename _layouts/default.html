@@ -7,12 +7,53 @@
 
     {% include header.html %}
     
-    <main>
+    <main id='main'>
       {{ content }}
 
       {% include footer.html %}
     </main>
+  
+    {% if page.color_template %}
+      <script>
 
+        window.addEventListener('scroll', function(e){
+          var scrollPos = e.target.scrollingElement.scrollTop;
+
+          menuColor(scrollPos);
+
+          scaleTitle(scrollPos);
+
+        });
+
+        function menuColor(scrollPos){
+          var header = document.querySelector('#blog-title');
+          var maxScrollPosition = header.clientHeight - (header.clientWidth*0.13);
+
+          var menuBtn = document.querySelector('#toggleBtn');
+          var classQuant = menuBtn.classList.length;
+
+          if (scrollPos >= maxScrollPosition && classQuant == 0) {
+            menuBtn.classList += '_invert';
+          }else if(scrollPos < maxScrollPosition && classQuant > 0){
+            menuBtn.classList = '';
+          }
+        }
+
+        function scaleTitle(scrollPos){
+          var header = document.querySelector('#blog-title');
+          var headerContainer = document.querySelector('#blog-title .container');
+          
+          var hToFinish = header.clientHeight - scrollPos;
+
+          var percent = hToFinish/header.clientHeight;
+
+          if (percent >= 0) {
+            headerContainer.style.transform = "scale("+percent+") translateY("+((1 - percent)*(header.clientHeight))+"px)";       
+            headerContainer.style.opacity = percent;  
+          }
+        }
+      </script>
+    {% endif %}
   </body>
 
 </html>
