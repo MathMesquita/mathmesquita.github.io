@@ -9,8 +9,10 @@
     
     <main id='main'>
       {{ content }}
-
-      {% include disqus_comments.html %}
+      
+      <article class="container">
+        {% include disqus_comments.html %}
+      </article>
 
       {% include footer.html %}
     </main>

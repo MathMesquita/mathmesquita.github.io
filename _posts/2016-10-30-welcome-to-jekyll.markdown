@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-10-30 22:49:49 -0200
-color_template: "css"
+color_template: "javascript"
 tags: jekyll update
 resume: "Venha aprender sobre o que todos estão falando, de uma maneira funcional :)"
 topic: javascript
