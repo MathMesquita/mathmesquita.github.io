@@ -5,7 +5,7 @@ layout: default
     {% for post in site.posts %}
       <section class='{{ post.topic }}'>
         <div class="topic">{{ post.topic }}</div>
-        <a href="">
+        <a href="{{ post.url }}">
           <h3>{{ post.title }}</h3>
           <span>
             {% assign m = post.date | date: "%-m" %}
@@ -35,6 +35,8 @@ layout: default
         </div>
       </section>
     {% endfor %}
+    <section class='_empty'></section>
+    <section class='_empty'></section>
     <section class='_empty'></section>
     <section class='_empty'></section>
     <section class='_empty'></section>
