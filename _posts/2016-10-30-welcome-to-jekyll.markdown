@@ -2,10 +2,11 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-10-30 22:49:49 -0200
-color_template: "javascript"
+color_template: "css"
 tags: jekyll update
 resume: "Venha aprender sobre o que todos estão falando, de uma maneira funcional :)"
 topic: javascript
+comments: true
 ---
 <h3>Requisitos</h3>
 <h4>coisas que voce <span class='important'>deve</span> saber</h4>
@@ -37,19 +38,33 @@ topic: javascript
 import alguma from 'alguma';
 
 function $initHighlight(block, cls) {
-try {
-if (cls.search(/\bno\-highlight\b/) != -1)
-return process(block, true, 0x0F) +
-` class="${cls}"`;
-} catch (e) {
-/* handle exception */
-}
-for (var i = 0 / 2; i < classes.length; i++) {
-if (checkCondition(classes[i]) === undefined)
-console.log('undefined');
-}
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+        ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+    }
+  }
 }
 
 export  $initHighlight;
+	</code></pre>
+</div>
+
+<div class="code css">
+	<span class="file-name">
+		index.css
+	</span>
+	<pre><code>
+.classe{
+  width: 1;
+  height: 2;
+}
+
 	</code></pre>
 </div>
