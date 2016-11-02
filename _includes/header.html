@@ -1,10 +1,12 @@
     
     {% if page.color_template %}
       <input type="checkbox" id="toggleHeader">
-      <label for="toggleHeader" id='toggleBtn'>
-        <div class="menu"></div>
-      </label>
+    {% else %}
+      <input type="checkbox" id="toggleHeader" checked>
     {% endif %}
+    <label for="toggleHeader" id='toggleBtn'>
+      <div class="menu"></div>
+    </label>
 
     <header>
       <div class="thumb">
@@ -19,7 +21,7 @@
         <ul>
         {% for page in site.pages %}
           {% if page.title %}
-            <li><a href="{{ page.url }}">&#123;&#123; {{ page.title }} &#125;&#125;</a></li>
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
         </ul>

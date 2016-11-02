@@ -9,7 +9,6 @@ $darken-blue-almost-grey:#1A1C34
 body
    overflow-x: hidden
 
-
 #toggleHeader
    display: none
 
@@ -142,7 +141,12 @@ body > header
    nav
       width: 100%
       flex-grow: 1
-      margin-top: 50px
+      display: flex
+      align-items: center
+      padding-bottom: 30px
+      
+      ul
+         width: 100%
 
       li
          width: 100%
@@ -150,6 +154,10 @@ body > header
          font-size: 20px
          letter-spacing: 4px
          text-transform: capitalize
+         ::before
+            content: '{{'
+         ::after
+            content: '}}'
 
       a
          color: #fff
@@ -368,3 +376,79 @@ main
       position: absolute
       bottom: 0
       width: 100%
+
+
+@media (max-width: 400px)
+   body > header footer::before
+      border-left-width: calc(50vw - 15px)
+      border-right-width: calc(50vw - 15px)
+
+@media (max-width: 350px)
+   body > header h1
+      font-size: 8vw
+
+   body > header nav li
+      font-size: 5vw
+
+   body > header .thumb
+      width: 45vw
+      height: 45vw
+
+@media (max-height: 460px)
+   body > header nav
+      padding-bottom: 0
+   body > header footer::before
+      display: none
+      
+@media (max-height: 425px)
+   #toggleHeader ~ header
+      padding-top: 20px
+
+@media (max-height: 395px)
+   #toggleHeader ~ header
+      flex-direction: row
+      align-content: stretch
+
+   body > header > a
+      display: flex
+      align-items: center
+      flex-grow: 1
+      height: 100px
+      margin-top: 10px
+      h1
+         text-align: left
+
+   body > header .thumb
+      margin: 10px 10px 0px 20px
+      width: 100px
+      height: 100px
+
+   body > header footer
+      align-self: flex-end
+
+   body > header nav li 
+      &::before, &::after
+         display: none
+   
+   @media (max-width: 490px)
+      body > header > a 
+         height: 22vw
+         margin-top: 20px
+         h1
+            font-size: 5.5vw
+   
+      body > header .thumb
+         margin-top: 20px
+         width: 22vw
+         height: 22vw
+
+@media (max-height: 310px)
+   body > header .thumb
+      width: 50px
+      height: 50px   
+
+   body > header > a 
+      height: 50px
+      h1
+         font-size: 22px
+   
