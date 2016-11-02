@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Blog sobre desenvolvimento front-end
 baseurl: "" # the subpath of your site, e.g. /blog
 disqusurl: "mathmesquita"
-url: "http://mathmesquita.me" # the base hostname & protocol for your site
+url: "https://mathmesquita.me" # the base hostname & protocol for your site
 twitter_username: _mathmesquita
 github_username:  MathMesquita
 facebook_username: mathmesquita.168
