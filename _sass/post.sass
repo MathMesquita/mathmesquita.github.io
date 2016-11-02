@@ -261,11 +261,13 @@ main
          line-height: 1.4
          font-weight: normal
          user-select: none
+         transform: skewX(-13deg)
 
       p
          font-size: 20px
          padding: 5px 0
          margin: 25px 0
+         line-height: 1.4
 
       span
          font-size: 16px
@@ -377,6 +379,64 @@ main
       bottom: 0
       width: 100%
 
+@media (max-width: 470px)
+   #toggleHeader
+      ~ label
+         left: initial
+         right: 20px
+
+      ~ header
+         transform: translateX(-100%)
+         left: -100%
+
+      &:checked 
+         ~ header
+            transform: translateX(100%)
+         ~ label#toggleBtn
+            transform: translateX(0px)
+            border-color:  transparent
+         ~ main
+            transform: translateX(0px)
+   
+   main 
+      header
+         padding: 50px 0
+         &::after, &::before
+            display: none
+
+         h2
+            font-size: 11.7vw
+
+         p
+            font-size: 4.5vw
+
+      article.container
+         padding-top: 20px
+         p, 
+         p > span,
+         h4,
+         ul li,
+         ol li
+            font-size: 4.5vw
+         h3
+            font-size: 8.7vw
+         
+         ul li,
+         ol li
+            margin: 5px 0
+
+         ol li
+            list-style: decimal
+
+         pre
+            font-size: 11px
+
+   body > header
+      width: 100%
+
+   main .container
+      width: 100%
+      padding: 0 20px
 
 @media (max-width: 400px)
    body > header footer::before
