@@ -28,5 +28,3 @@ skype_username: matheus.mesquita168
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - octopress-autoprefixer
