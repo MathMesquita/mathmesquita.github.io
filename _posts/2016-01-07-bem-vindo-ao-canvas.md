@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bem-vindo ao Canvas #1"
-image: "/assets/bem-vindo-canvas/cover.png"
+image: "/assets/bem-vindo-canvas/cover.jpg"
 date:   2016-01-07 08:00:00 -0200
 color_template: "canvas"
 tags: html5 canvas javascript
