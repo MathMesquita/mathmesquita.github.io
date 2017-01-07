@@ -365,6 +365,28 @@ main
             background-color: $css
             color: #fff
 
+   $canvas: #de7000
+   section.canvas
+      border: 1px solid transparentize($canvas, 0.8)
+      &:hover
+         box-shadow: 0px 0px 10px -2px transparentize($canvas, 0.6)
+      .topic
+         background: $canvas
+         &::after
+            border-bottom: 13px solid lighten($canvas, 30%)
+         &::before
+            border-bottom: 13px solid lighten($canvas, 30%)
+      h3
+         color: $canvas
+      p
+         color: darken($canvas, 30%)
+      .tags a
+         border-bottom: 1px dashed $canvas
+         color: $canvas
+         &:hover
+            background-color: $canvas
+            color: #fff
+
 @media (max-width: 660px)
    body > header
       width: 100%
