@@ -21,7 +21,6 @@
   {% endif %} -->
 
   <!-- Social: Facebook / Open Graph -->
-  <meta property="fb:admins" content="1611244354" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:url" content="{{ page.url | prepend: site.url }}">
   <meta property="og:title" content="{{ page.title | default: site.title}}">
@@ -37,7 +36,7 @@
   {% if page.topic %}
     <meta property="article:author" content="mathmesquita.168" />    
     <meta property="article:section" content="{{ page.topic }}" />    
-    <meta property="article:tags" content="{{ page.tags }}" />    
+    <meta property="article:tag" content="{{ page.tags }}" />    
     <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}" />    
     <link rel="stylesheet" href="/assets/libs/styles/monokai-sublime.css" />
   {% endif %}
