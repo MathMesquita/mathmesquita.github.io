@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Bem vindo ao Canvas #1"
+title:  "Bem-vindo ao Canvas #1"
+image: "assets/bem-vindo-canvas/cover.png"
 date:   2016-01-07 08:00:00 -0200
 color_template: "canvas"
 tags: html5 canvas javascript
-resume: "Acha muito legal aqueles efeitos de particulas nos sites mas nunca entendeu muito bem como são feitos? Também sempre tive essa dúvida, até descobrir o canvas XD"
+resume: "Acha muito legal aqueles efeitos de particulas nos sites mas nunca entendeu muito bem como são feitos? Também sempre tive essa dúvida, até descobrir o canvas."
 topic: canvas
 comments: true
 ---
