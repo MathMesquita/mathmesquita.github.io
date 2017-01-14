@@ -387,6 +387,28 @@ main
             background-color: $canvas
             color: #fff
 
+   $sql: #32a5a9
+   section.sql
+      border: 1px solid transparentize($sql, 0.8)
+      &:hover
+         box-shadow: 0px 0px 10px -2px transparentize($sql, 0.6)
+      .topic
+         background: $sql
+         &::after
+            border-bottom: 13px solid lighten($sql, 30%)
+         &::before
+            border-bottom: 13px solid lighten($sql, 30%)
+      h3
+         color: $sql
+      p
+         color: darken($sql, 30%)
+      .tags a
+         border-bottom: 1px dashed $sql
+         color: $sql
+         &:hover
+            background-color: $sql
+            color: #fff
+
 @media (max-width: 660px)
    body > header
       width: 100%
