@@ -5,15 +5,15 @@ image: "/assets/filtrando-localizacao-em-um-raio/cover.jpg"
 date:   2017-01-16 18:00:00 -0200
 color_template: "sql"
 tags: sql otimização DB
-resume: "Sabe quando voce tem que filtrar todas as opções em determinado raio(km) para o usuário? Tarefa chata né? Então salva esse post nos favoritos que nunca mais você vai perder tempo pensando nisso."
+resume: "Sabe quando você tem que filtrar todas as opções em determinado raio(km) para o usuário? Tarefa chata né? Então salva esse post nos favoritos que nunca mais você vai perder tempo pensando nisso."
 topic: sql
 comments: true
 ---
 
 <h3>Introdução</h3>
 <p>Bom dia, boa tarde e boa noite, esse post sai um pouco da temática de front-end, mas é um tópico muito útil para quem acaba topando com sistemas de delivery, onde o usuário é o centro das atenções e precisa ser informado das opções disponíveis a sua volta.</p>
-<p>Descobrir se um ponto está dentro de um circulo é algo muito fácil de se fazer, tendo o raio(maior distancia aceitavel do centro), voce só precisa calcular a distancia entre o centro e ponto seguindo fórmula<br/>D=sqrt((Xo-X)²+(Yo-Y)²) e comparar a distancia com o raio, sendo menor aquele ponto estará dentro do aceitável.</p>
-<p>Tudo muito bonito, voce calcular um a um dentro de um DB com 100 inserções, mas e quando seu DB tiver 100mil pontos? Calcular um a um se torna um processo custoso, caso vá fazer isso a toda requisição do usuário.</p>
+<p>Descobrir se um ponto está dentro de um circulo é algo muito fácil de se fazer, tendo o raio(maior distancia aceitavel do centro), você só precisa calcular a distancia entre o centro e ponto seguindo fórmula<br/>D=sqrt((Xo-X)²+(Yo-Y)²) e comparar a distancia com o raio, sendo menor aquele ponto estará dentro do aceitável.</p>
+<p>Tudo muito bonito, você calcular um a um dentro de um DB com 100 inserções, mas e quando seu DB tiver 100mil pontos? Calcular um a um se torna um processo custoso, caso vá fazer isso a toda requisição do usuário.</p>
 <p>Sendo assim, vamos ver o que podemos fazer para aprimorar essa pesquisa.</p>
 
 <h3>Não é somente a hipotenusa</h3>
@@ -37,7 +37,7 @@ SELECT * FROM LOCAIS WHERE acos(sin(1.3963) * sin(Lat) + cos(1.3963) * cos(Lat) 
 <p>A bounding box é toda a área em azul, é o retângulo que possui toda a totalidade do círculo. Aplicando-a ao nosso problema, nós buscariamos todos os <b>pontos</b> que estivessem entre <b>ymin/ymax</b> e <b>xmin/xmax</b>, dessa forma conseguiriamos reduzir a quantidade de pontos a um numero muito menor do que a imensidão que pode ser nosso banco de dados, e o cálculo complexo será executado menos vezes.</p>
 
 <h3>Definindo a Latitude min/max</h3>
-<p>Agora é a parte que começa a complicar um pouco a explicação caso voce não manje muito geometria analítica.</p>
+<p>Agora é a parte que começa a complicar um pouco a explicação caso você não manje muito geometria analítica.</p>
 <p>Utilizando ainda os números do exemplo anterior, vamos definir nosso raio de busca em D = 300km e raio da terra(aproximadamente) R = 6371km.</p>
 <p>r = D/R = (300km/6371km) = 0.0471 rad</p>
 <p>Esse <b>r</b> que conseguimos, é o raio da nossa busca em forma angular, assim podemos somar/subtrair essa distancia da nossa latitude para obter a Latmax e Latmin, nada mais do que obter os extremos do nosso círculo.</p>
