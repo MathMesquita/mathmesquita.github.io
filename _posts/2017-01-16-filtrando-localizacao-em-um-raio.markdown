@@ -1,8 +1,8 @@
 ---
 title: Filtrando localizações em um raio
 layout: post
-image: "/assets/bem-vindo-canvas/cover.jpg"
-date:   2017-01-13 18:00:00 -0200
+image: "/assets/filtrando-localizacao-em-um-raio/cover.jpg"
+date:   2017-01-16 18:00:00 -0200
 color_template: "sql"
 tags: sql otimização DB
 resume: "Sabe quando voce tem que filtrar todas as opções em determinado raio(km) para o usuário? Tarefa chata né? Então salva esse post nos favoritos que nunca mais você vai perder tempo pensando nisso."
