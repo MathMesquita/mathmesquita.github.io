@@ -13,7 +13,7 @@ comments: true
 <h3>Introdução</h3>
 <p>Fala pessoal, venho informar que é um prazer estar com vocês novamente, e que esse é o segundo post da série "Bem-vindo ao canvas", pra quem não viu o primeiro é só vir <a href="https://mathmesquita.me/2016/01/07/bem-vindo-ao-canvas.html">aqui</a>. Lembrando que a intenção dessa série em 3 posts é nos introduzir aos princípios do canvas, e no final fazer um efeito de particulas muito maneiro.</p>
 <p>Nesse post iremos falar sobre as principais transformações matriciais(translação, rotação e escala). No final novamente irá surgir algum desenho interesssante(eu acho), sem mais, vamos ao que interessa.</p>
-<p>Se voce não faz idéia do que é o canvas, no <a href="https://mathmesquita.me/2016/01/07/bem-vindo-ao-canvas.html">primeiro post</a> tem uma explicação bem resumida dessa ótima ferramenta do HTML5.</p>
+<p>Se você não faz idéia do que é o canvas, no <a href="https://mathmesquita.me/2016/01/07/bem-vindo-ao-canvas.html">primeiro post</a> tem uma explicação bem resumida dessa ótima ferramenta do HTML5.</p>
 
 <h3>Antes de tudo</h3>
 <p>Precismos da nossa tag &lt;canvas&gt;&lt;/canvas&gt; e inicializar nosso contexto</p>
@@ -104,7 +104,7 @@ var sky = {
 
 <h4>Translação</h4>
 <img src="https://www.w3.org/TR/2012/WD-css3-transforms-20120403/examples/svg-translate.png" alt="">
-<p>A transformação de <b>translação</b>, é realizada quando voce quer mudar a posição de um objeto, <b>demonstrado acima</b>.</p>
+<p>A transformação de <b>translação</b>, é realizada quando você quer mudar a posição de um objeto, <b>demonstrado acima</b>.</p>
 <p>No nosso caso do canvas, nós não conseguimos criar objetos inteiros e move-los de forma sólida para outro ponto, dessa maneira, a transformação de <b>translação</b> no canvas serve para mudar a origem do nosso palco, <b>demonstrado abaixo</b>, e a partir dali iremos desenhar a forma que planejavamos translocar.</p>
 <img src="https://mdn.mozillademos.org/files/234/Canvas_grid_translate.png" alt="">
 <p>A função responsavel por isso no canvas é a <a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate">.translate(x, y)</a>.</p>
@@ -304,11 +304,11 @@ var sky = {
 }
 </code></pre>
 </div>
-<p>Seguidos todos os passos corretamente, voce provavelmente teve um resultado idêntico a esse !(só ta mudando toda vez que voce recarrega a página :p)</p>
+<p>Seguidos todos os passos corretamente, você provavelmente teve um resultado idêntico a esse !(só ta mudando toda vez que você recarrega a página :p)</p>
 <p data-height="339" data-theme-id="dark" data-slug-hash="LxZqaz" data-default-tab="result" data-user="mathmesquita" data-embed-version="2" data-pen-title="Céu estrelado" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/LxZqaz/">Céu estrelado</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 <h3>Conclusão</h3>
-<p>Wow, esse post acabou conseguindo ser maior que o outro!! :O Mas é isso aí galera, conforme vai aumentando a complexidade os posts vão ficando maiores, esse talvez foi mais divertido que o outro pois teve um resultado que ja começa a traçar uma linha para o que queremos de particulas(<strike>se voce mudar a estrela pra um circulo voce acabou de gerar as particulas</strike>).</p>
+<p>Wow, esse post acabou conseguindo ser maior que o outro!! :O Mas é isso aí galera, conforme vai aumentando a complexidade os posts vão ficando maiores, esse talvez foi mais divertido que o outro pois teve um resultado que ja começa a traçar uma linha para o que queremos de particulas(<strike>se você mudar a estrela pra um circulo você acabou de gerar as particulas</strike>).</p>
 <p>A série continua semana que vem(chegando ao seu final :[ ), mas relaxe que ja estou planejando mais coisas para brincar com o canvas !! Quem sabe uma série de canvas avançado ? ou fazendo um jogo na unha ? Enfim !!! muitas idéias e por hoje paramos aqui. </p>
 <p>Qualquer dúvida, sugestão, elogio, xingamento convite para uma conversa, estarei nos comentários !! Espero que tenham gostado e até a próxima. õ7</p>

@@ -11,7 +11,7 @@ comments: true
 ---
 
 <h3>Introdução</h3>
-<p>Oi galera, esse é meu primero post, depois de 2 meses pronto o blog, <i>inclusive nesse dominio</i>, finalmente consegui tempo e um bom tópico para dar início a essa nova fase nesse novo ano da minha vida. Em breve farei um post falando mais sobre mim, mas tem um pequeno resumo na área de <a href="/sobre" target="_blank">sobre</a> caso voce tenha interesse. Sem mais, vamos ao que interessa.</p>
+<p>Oi galera, esse é meu primero post, depois de 2 meses pronto o blog, <i>inclusive nesse dominio</i>, finalmente consegui tempo e um bom tópico para dar início a essa nova fase nesse novo ano da minha vida. Em breve farei um post falando mais sobre mim, mas tem um pequeno resumo na área de <a href="/sobre" target="_blank">sobre</a> caso você tenha interesse. Sem mais, vamos ao que interessa.</p>
 <p>Nesse post trataremos do básico sobre o canvas, que são as formas, mas pretendo fazer uma série de 3 posts(1/semana) finalizando com um efeito de particulas maneirissimo, utilizando eventos de mouse, aleatoriedade, fisica... Será bem legal !</p>
 
 <h3>O que é canvas?</h3>
@@ -28,7 +28,7 @@ comments: true
 &lt;canvas id="mycanvas" width="150" height="150"&gt;&lt;/canvas&gt;
 &lt;!-- 
    o ID não é obrigatório, só vai facilitar nosso trabalho mais na frente 
-   Adicionar o width e height direto na tag é indicado, caso voce
+   Adicionar o width e height direto na tag é indicado, caso você
    faça por CSS seus desenhos no palco ficarão distorcidos
    width e height padrão é 300x150 pixels respectivamente
 --&gt;
@@ -44,7 +44,7 @@ window.onload = draw;
 function draw(){
    // aqui obtemos a referencia ao DOMNode do canvas,
    // por isso utilizamos um id acima, para faciliar essa obtenção
-   // voce também poderia pegar pelo nome da tag ou class
+   // você também poderia pegar pelo nome da tag ou class
    var canvas = document.getElementById("mycanvas");
 
    // aqui informamos ao navegador que estaremos 
@@ -111,7 +111,7 @@ function draw(){
 }
 	</code></pre>
 </div>
-<p>Se voce seguiu os passos corretamente até aqui, surgiu um círculo no melhor estilo "O chamado" no meio do seu palco.</p>
+<p>Se você seguiu os passos corretamente até aqui, surgiu um círculo no melhor estilo "O chamado" no meio do seu palco.</p>
 
 <h4>Linhas</h4>
 <p>Linhas são caminhos formados por uma função onde y = ax + b, ou famosa equação da reta. Novamente a API de "caminhos" nos fornece uma função de utilizade que ja desenha a linha inteiramente para nós, <a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo">.lineTo(x, y)</a> .</p>
@@ -138,7 +138,7 @@ function draw(){
 
    // a função .moveTo(x, y) serve para mudar
    // o local em que o caminho está posicionado
-   // como se fosse voce levantando o lapís de 
+   // como se fosse você levantando o lapís de 
    // uma folha, e encostando em outro local
    context.moveTo(75, 17);
 
@@ -158,11 +158,11 @@ function draw(){
 }
 	</code></pre>
 </div>
-<p>Se voce fez todos os passos corretamente, surgiu uma figura que voce talvez conheça. É o símbolo das relíquias da morte em Harry Potter ! :D</p>
+<p>Se você fez todos os passos corretamente, surgiu uma figura que você talvez conheça. É o símbolo das relíquias da morte em Harry Potter ! :D</p>
 <p data-height="265" data-theme-id="dark" data-slug-hash="oBXGwm" data-default-tab="result" data-user="mathmesquita" data-embed-version="2" data-pen-title="Reliquias mortais" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/oBXGwm/">Reliquias mortais</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 <h3>Conclusão</h3>
 <p>Esse post ficou maior do que o esperado, quando comecei a escrever não achei que ficaria tão grande assim. Não conseguimos abordar todas as formas. Mas não se preocupem, que essas são as principais.</p>
 <p>No próximo post iremos abordar transformações matriciais, (translação, rotação e escala), apesar do nome dificil, tudo isso é bem comum no CSS3, e aqui vai funcionar de forma semelhante.</p>
-<p>Espero de coração que voces tenham gostado desse post, foi o meu primeiro e estou sempre aberto a críticas e sugestões nos comentários ou no meu <a href="mailto:{{ site.email }}">email</a>!</p>
+<p>Espero de coração que vocês tenham gostado desse post, foi o meu primeiro e estou sempre aberto a críticas e sugestões nos comentários ou no meu <a href="mailto:{{ site.email }}">email</a>!</p>
