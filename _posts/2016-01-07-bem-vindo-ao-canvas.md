@@ -166,3 +166,5 @@ function draw(){
 <p>Esse post ficou maior do que o esperado, quando comecei a escrever não achei que ficaria tão grande assim. Não conseguimos abordar todas as formas. Mas não se preocupem, que essas são as principais.</p>
 <p>No próximo post iremos abordar transformações matriciais, (translação, rotação e escala), apesar do nome dificil, tudo isso é bem comum no CSS3, e aqui vai funcionar de forma semelhante.</p>
 <p>Espero de coração que vocês tenham gostado desse post, foi o meu primeiro e estou sempre aberto a críticas e sugestões nos comentários ou no meu <a href="mailto:{{ site.email }}">email</a>!</p>
+
+<a href="https://mathmesquita.me/2017/01/14/bem-vindo-ao-canvas-2.html">O próximo post da série ja está disponível !</a>
