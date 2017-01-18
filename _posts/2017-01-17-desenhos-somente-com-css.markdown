@@ -5,7 +5,7 @@ image: "/assets/desenhos-com-css/cover.jpg"
 date:   2017-01-17 08:00:00 -0200
 color_template: "css"
 tags: css3 inspiracao
-resume: "Ja abriu o codepen e viu um monte de desenhos feitos no CSS? Mas você não tem idéia nem de como fazer um triângulo ? Esse post é pra você. 8D"
+resume: "Ja abriu o codepen e viu um monte de desenhos feitos no CSS? Mas você não tem idéia nem de como fazer um triângulo ? Esse post é pra você. "
 topic: css
 comments: true
 ---
@@ -37,7 +37,7 @@ comments: true
 ...
 </code></pre>
 </div>
-<p data-height="190" data-theme-id="dark" data-slug-hash="oBYaaL" data-default-tab="css,result" data-user="mathmesquita" data-embed-version="2" data-pen-title="oBYaaL" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/oBYaaL/">oBYaaL</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="190" data-theme-id="dark" data-slug-hash="oBYaaL" data-default-tab="result" data-user="mathmesquita" data-embed-version="2" data-pen-title="oBYaaL" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/oBYaaL/">oBYaaL</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 <h4>Circulos</h4>
@@ -68,7 +68,7 @@ comments: true
 ...	
 </code></pre>
 </div>
-<p data-height="298" data-theme-id="dark" data-slug-hash="apBRQO" data-default-tab="css,result" data-user="mathmesquita" data-embed-version="2" data-pen-title="apBRQO" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/apBRQO/">apBRQO</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="298" data-theme-id="dark" data-slug-hash="apBRQO" data-default-tab="result" data-user="mathmesquita" data-embed-version="2" data-pen-title="apBRQO" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/apBRQO/">apBRQO</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 <h3>Triangulos</h3>
 <p>Acho que é uma das formas mais legais de se fazer no CSS, a principio pode ser esquisito, mas iremos faze-la utilizando somente o border-width e border-color.</p>
@@ -104,7 +104,7 @@ comments: true
 ...	
 </code></pre>
 </div>
-<p data-height="186" data-theme-id="dark" data-slug-hash="EZNdGa" data-default-tab="css,result" data-user="mathmesquita" data-embed-version="2" data-pen-title="EZNdGa" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/EZNdGa/">EZNdGa</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="186" data-theme-id="dark" data-slug-hash="EZNdGa" data-default-tab="result" data-user="mathmesquita" data-embed-version="2" data-pen-title="EZNdGa" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/EZNdGa/">EZNdGa</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 <h3>Losangos</h3>
 <p>Apesar de não ser uma forma primitiva, decidi dedicar esse espaço para falar dos losangos mais como uma forma de apresentar para vocês o que conseguimos fazer com as outras formas básicas.</p>
@@ -148,7 +148,7 @@ comments: true
 ...	
 </code></pre>
 </div>
-<p data-height="265" data-theme-id="dark" data-slug-hash="VPmENp" data-default-tab="css,result" data-user="mathmesquita" data-embed-version="2" data-pen-title="VPmENp" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/VPmENp/">VPmENp</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="265" data-theme-id="dark" data-slug-hash="VPmENp" data-default-tab="result" data-user="mathmesquita" data-embed-version="2" data-pen-title="VPmENp" class="codepen">See the Pen <a href="http://codepen.io/mathmesquita/pen/VPmENp/">VPmENp</a> by Matheus Mesquita (<a href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 <h3>Só isso ?</h3>
 <p><b>"Show matheus, você ensinou como fazer as formas, mas eu não tenho idéia de como posso aplicar isso".</b></p>
@@ -163,5 +163,5 @@ comments: true
 <h3>Conclusão</h3>
 <p>Esse post foi bem básico, falamos somente de formas simples e no final dei um exemplo do que ja é possivel montar com o conhecimento adquirido aqui.</p>
 <p>Lembrando que infelizmente não existe fórmula para fazer um bom desenho, o negocio é ir fazendo aos poucos e ajustando da forma que ficar legal, praticando bastante voce jaja irá conseguir fazer algo parecido com aquela garotinha pulando.</p>
-<p>Por fim espero que tenham gostado, e principalmente espero seus comentários, pedidos, criticas e sugestões, além claro, de dicas caso tenha alguma! :D Muito obrigado pelo seu tempo, se você leu até aqui, e até o próximo post õ7</p>
+<p>Por fim espero que tenham gostado, e principalmente espero seus comentários, pedidos, criticas e sugestões, além claro, de dicas caso tenha alguma! :D Muito obrigado pelo seu tempo, se você leu até aqui, e até o próximo post.</p>
 <p>Me avisem se vocês querem um segundo post sobre esse tema, mostrando como fazer desenhos mais complexos ! :D</p>
