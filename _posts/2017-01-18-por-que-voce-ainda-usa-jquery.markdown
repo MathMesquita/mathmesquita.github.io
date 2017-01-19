@@ -17,7 +17,7 @@ comments: true
 
 <h3>Por onde começar?</h3>
 <p>Essa talvez seja a pergunta mais difícil de se responder, afinal quando estamos acostumados com algo não notamos que isso talvez possa mais nos atrapalhar do que ajudar.</p>
-<p>E falo isso por experiência própria, afinal <b>eu</b> assim como vários, quando entraram pro mundo WEB foram jogados direto no colo desse framework, sem nem aprender o javascript de fato. E quando digo aprender JS, to falando aprender mesmo, saber o que são os objetos<strike>(descobrir que no final tudo se resume a objetos)</strike>, um ajax na unha, aprender a fazer inclusive um JQuery próprio... Além de muitas outras coisas que essa linguagem maravilhos pode nos proporcionar.</p>
+<p>E falo isso por experiência própria, afinal <b>eu</b> assim como vários, quando entraram pro mundo WEB foram jogados direto no colo desse framework, sem nem aprender o javascript de fato. E quando digo aprender JS, to falando aprender mesmo, saber o que são os objetos<strike>(descobrir que no final tudo se resume a objetos)</strike>, um ajax na unha, aprender a fazer inclusive um JQuery próprio... Além de muitas outras coisas que essa linguagem maravilhosa pode nos proporcionar.</p>
 <p>Nesse meio todo, acabamos nos acostumando com as facilidades que ele nos proporciona e usamos ele para tudo, literalmente tudo. Nós eramos capazes de fazer os nossos usuários baixarem 32kb de JS por que gostavamos de uma feature que poderia ter sido reescrita em "código nativo" em 1 linha.</p>
 
 <h3>Certo... Mas e aí?</h3>
