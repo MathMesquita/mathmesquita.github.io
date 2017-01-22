@@ -24,15 +24,15 @@ comments: true
 	<pre><code>
 ...
 &lt;!-- O checkbox é o principal item dessa nossa brincadeira
-		graças ao seletor :checked nós poderemos ver se ele 
-		está ativo ou não --&gt;
+	graças ao seletor :checked nós poderemos ver se ele 
+	está ativo ou não --&gt;
 &lt;input type="checkbox" id="menu-tgl" /&gt;
 
 &lt;!-- Aqui vem o menu que ficará escondido --&gt;
 &lt;nav class="menu"&gt;
 	&lt;!-- Nosso outro protagonista, a tag label, será
-			responsável por ativar ou desativar o nosso checkbox
-			ativando e desativando a pseudo-classe :checked  --&gt;
+		responsável por ativar ou desativar o nosso checkbox
+		ativando e desativando a pseudo-classe :checked  --&gt;
 	&lt;label for="menu-tgl" class="menu-btn"&gt;&lt;/label&gt;
 	
 	&lt;!-- Conteúdo do nosso menu --&gt;
@@ -62,7 +62,7 @@ comments: true
    acessar sua pseudo-classe :checked, sendo assim nós definimos
    o display como none, que vai funcionar como se o nosso elemento
    nem estivesse no DOM, não irá ocupar nenhum espaço, ao contrário
-    do que seria se simplesmente definissemos opacity:0 */
+   do que seria se simplesmente definissemos opacity:0 */
 #menu-tgl {
 	display: none;
 }

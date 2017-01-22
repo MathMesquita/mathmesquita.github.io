@@ -312,3 +312,4 @@ var sky = {
 <p>Wow, esse post acabou conseguindo ser maior que o outro!! :O Mas é isso aí galera, conforme vai aumentando a complexidade os posts vão ficando maiores, esse talvez foi mais divertido que o outro pois teve um resultado que ja começa a traçar uma linha para o que queremos de particulas(<strike>se você mudar a estrela pra um circulo você acabou de gerar as particulas</strike>).</p>
 <p>A série continua semana que vem(chegando ao seu final :[ ), mas relaxe que ja estou planejando mais coisas para brincar com o canvas !! Quem sabe uma série de canvas avançado ? ou fazendo um jogo na unha ? Enfim !!! muitas idéias e por hoje paramos aqui. </p>
 <p>Qualquer dúvida, sugestão, elogio, xingamento convite para uma conversa, estarei nos comentários !! Espero que tenham gostado e até a próxima. õ7</p>
+<p><a href="/2017/01/21/bem-vindo-ao-canvas-3">Último post ja está disponível !</a></p>
