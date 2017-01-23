@@ -410,6 +410,29 @@ main
             background-color: $sql
             color: #fff
 
+   $etc: #610888
+   section.etc
+      border: 1px solid transparentize($etc, 0.8)
+      &:hover
+         box-shadow: 0px 0px 10px -2px transparentize($etc, 0.6)
+      .topic
+         background: $etc
+         &::after
+            border-bottom: 13px solid lighten($etc, 30%)
+         &::before
+            border-bottom: 13px solid lighten($etc, 30%)
+      h3
+         color: $etc
+      p
+         color: darken($etc, 30%)
+      .tags a
+         border-bottom: 1px dashed $etc
+         color: $etc
+         &:hover
+            background-color: $etc
+            color: #fff
+
+
 @media (max-width: 660px)
    body > header
       width: 100%
