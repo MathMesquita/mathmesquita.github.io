@@ -31,6 +31,7 @@ comments: true
 <p>Para firmar conhecimento, eu gosto de utilizar aquilo que aprendi em problemas da vida real, até mesmo porque é bem assim que a vida funciona, voce tem problemas reais e precisa de soluções reais.</p>
 <p>No caso do meu problema, eu sabia que com o <b>canvas</b> eu posso gerar imagens, por mais que não tenhamos visto isso na nossa série sobre o canvas, com ele nós podemos utilizar, manipular e criar imagens.</p>
 <p>Sendo assim, a única coisa que eu tinha que fazer era utilizar meu conhecimento para fazer um <b>gerador de thumbs de facebook v1.0</b> ! e o resultado disso eu estou compartilhando com vocês para utilizarem caso também precisem de algo semelhante !</p>
+<p><a href="https://github.com/MathMesquita/facebookThumbGenerator/blob/master/modelo.html">LINK PARA O GERADOR DE THUMBS. :D</a></p>
 <img src="assets/automatizando-processos/uhul.gif" alt="">
 <p>PS: preciso dar algumas considerações, eu fiz tudo(css/js) em um único arquivo HTML, dessa forma eu não preciso me preocupar sempre em ter assets comigo, se eu precisar do meu gerador é só dar dois cliques e funciona que nem um programa no browser. Todo o JS está comentado, sendo assim quem tiver interesse é só ler lá, também me mandar uma mensagem caso encontre alguma dúvida !</p>
 
