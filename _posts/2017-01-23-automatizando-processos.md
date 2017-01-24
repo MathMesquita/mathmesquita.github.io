@@ -22,7 +22,7 @@ comments: true
 <p>Quando comecei a fazer o blog, eu tinha imaginado que o <a href="http://ogp.me/">open graph</a> fazia isso para mim, com alguma tag ultra bolada, mas como ja dizia collor <i>é um sonho de uma noite de verão</i>, e eu teria que ter esse <i>corno job</i> de montar a thumb do post sempre que eu terminasse de escrevê-lo.</p>
 
 <h3>Idéias de como solucionar</h3>
-<p>A princípio fui na mais básica, montar um templatezinho no inkscape, ou photoshop ou qualquer programa de edição de imagens e toda vez que eu fosse faz um post novo era só entrar lá, mudar o texto, mudar a tag<i>(que eu adicionei recentemente)</i>, a cor de fundo. Nada que uns 3~5 min não resolvam !</p>
+<p>A princípio fui na mais básica, montar um templatezinho no inkscape, ou photoshop ou qualquer programa de edição de imagens e toda vez que eu fosse fazer um post novo era só entrar lá, mudar o texto, mudar a tag<i>(que eu adicionei recentemente)</i>, a cor de fundo. Nada que uns 3~5 min não resolvam !</p>
 <p>Eu até tinha aceitado bem esse método mas lembrei de um pequeno detalhe, <b>eu não sou o às dos editores de imagem</b>, o trabalho que eu iria ter de modificar as coisas toda vez(sim, eu me enrolo para caramba nas ferramentas), iria talvez demorar um pouco mais do que deveria, e pra montar o template ??? nusss... Realmente talvez existisse uma opção melhor.</p>
 <p>Eis que então surge minha segunda solução, <i>"bora fazer um plugin pro jekyll que vai gerar isso pra mim e adicionar no template"</i>, essa era uma ótima opção pois teria trabalho zero para gerar esses thumbs, imagina que fácil? só escrever e não ter o trabalho de fazer a thumb depois.</p>
 <p>Mas novamente, temos um problema com essa ótima idéia, jekyll foi feito em ruby e não manjo nada de ruby<i>(nunca vi, ja comi eu só ouço falar)</i>, e nem manjo sobre como fazer um plugin para o jekyll. Não que eu não queira aprender, afinal ruby será a próxima linguagem que irei brincar, mas eu precisava disso na hora.</p>
@@ -35,7 +35,7 @@ comments: true
 <img src="http://i.giphy.com/26n62j7cS0aZOYCu4.gif" alt="">
 <p>PS: preciso dar algumas considerações, eu fiz tudo(css/js) em um único arquivo HTML, dessa forma eu não preciso me preocupar sempre em ter assets comigo, se eu precisar do meu gerador é só dar dois cliques e funciona que nem um programa no browser. Todo o JS está comentado, sendo assim quem tiver interesse é só ler lá, também me mandar uma mensagem caso encontre alguma dúvida !</p>
 
-<h3>Conlusão</h3>
+<h3>Conclusão</h3>
 <p>Primeiramente muito obrigado a todos que leram o post até aqui, espero que eu tenha ajudado alguém que estava precisando de algo semelhante e que eu tenha estimulado várias mentes a identificarem um processo e tentarem achar uma solução maneira para automatizá-lo.</p>
 <p>Esse post não será o único nesse estilo, pretendo trazer outros posts sobre outras coisas que automatizei, ou boilerplates que criei, <stroke>eu fiz uma parada muito legal para substituir o jquery na minha vida</stroke>, pretendo compartilhar todos com vocês.</p>
 <p>Pra quem ficou chateado ao saber que da pra mexer com imagens no canvas eu nem comentei isso na série, se acalmem que está para vir aí um <b>canvas avançado</b>.</p>
