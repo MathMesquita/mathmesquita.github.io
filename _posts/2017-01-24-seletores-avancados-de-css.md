@@ -36,7 +36,7 @@ comments: true
 <div class="code html">
 	<span class="file-name">index.html</span>
 	<pre><code class="html">
-&lt!-- código CSS do snippet abaixo --&gt;
+&lt;!-- código CSS do snippet abaixo --&gt;
 &lt;style&gt;
   ul li {
     padding: 10px 10px;
@@ -81,7 +81,7 @@ comments: true
 <div class="code html">
 	<span class="file-name">index.html</span>
 	<pre><code class="html">
-&lt!-- código CSS do snippet abaixo --&gt;
+&lt;!-- código CSS do snippet abaixo --&gt;
 &lt;style&gt;
   *{font-family: Verdana;}
   ul li {
@@ -122,7 +122,7 @@ comments: true
 <div class="code html">
   <span class="file-name">index.html</span>
   <pre><code class="html">
-&lt!-- código CSS do snippet abaixo --&gt;
+&lt;!-- código CSS do snippet abaixo --&gt;
 &lt;style&gt;
   *{font-family: Verdana;}
   ul li {
@@ -167,7 +167,7 @@ comments: true
 <p data-height="265" data-theme-id="0" data-slug-hash="NdvNKV" data-default-tab="result" data-user="mathmesquita" data-embed-version="2" data-pen-title="seletor mais" class="codepen">See the Pen <a target="_blank" href="http://codepen.io/mathmesquita/pen/NdvNKV/">seletor mais</a> by Matheus Mesquita (<a target="_blank" href="http://codepen.io/mathmesquita">@mathmesquita</a>) on <a target="_blank" href="http://codepen.io">CodePen</a>.</p>
 
 <h3>Seletores de atributos</h3>
-<p>Para ficar mais facil a visualização, eu primeiro separei todas variedades do seletor de atributos e por sim terá o exemplo de todos pelo codepen !</p>
+<p>Para ficar mais facil a visualização, eu primeiro separei todas variedades do seletor de atributos e por fim terá o exemplo de todos pelo codepen !</p>
 
 <h4 id="attr">[atributo]</h4>
 <p>O seletor <a target="_blank" href="http://www.w3schools.com/cssref/sel_attribute.asp">[atributo]</a>, irá selecionar todos os elementos que possuam aquele atributo, independente de ter conteúdo.</p>
@@ -250,7 +250,7 @@ img[alt*="montanhas"]{
 <div class="code html">
   <span class="file-name">index.html</span>
   <pre><code class="html">
-&lt!-- código CSS do snippet abaixo --&gt;
+&lt;!-- código CSS do snippet abaixo --&gt;
 &lt;style&gt;
   *{font-family: Verdana;}
 
