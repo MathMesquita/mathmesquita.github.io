@@ -327,5 +327,5 @@ img[alt*="montanhas"]{
 
 <h3>Conclusão</h3>
 <p>Seletores avançados são muito úteis quando queremos fazer as coisas da maneira mais simples e rápida, sem pensar em muitas classes ou qualquer padrão de escrita de CSS como <a target="_blank" href="http://getbem.com/introduction/">BEM</a>, <a target="_blank" href="http://itcss.io/">ITCSS</a> etc.</p>
-<p>Existem outros seletores que chamamos de <b>pseudo-classes</b> e <b>pseudo-elementos</b> que não foram abordados nesse post e que também são muito úteis para truques de CSS, desenhos etc, esperem o próximo post que irei falar de todos eles !</p>
+<p>Existem outros seletores que chamamos de <b>pseudo-classes</b> e <b>pseudo-elementos</b> que não foram abordados nesse post e que também são muito úteis para truques de CSS, desenhos e muito mais coisa, esperem o próximo post que irei falar de todos eles !</p>
 <p>Espero que tenham gostado, e obrigado por quem leu até aqui, dúvidas, críticas e sugestões, os comentários estão sempre abertos! Por hoje é só e até a próxima galera. :D</p>
