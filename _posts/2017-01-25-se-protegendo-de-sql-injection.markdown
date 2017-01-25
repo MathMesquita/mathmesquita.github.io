@@ -105,7 +105,7 @@ SELECT * FROM `USERS` WHERE `PASS`='um_hash_qualquer' AND `EMAIL`=''' or ''=''';
 <div class="code php">
 	<span class="file-name">index.php</span>
 	<pre><code>
-<?php 
+&lt;?php 
 
 // aqui instanciamos a classe mysqli, passando como parametro
 // o servidor do db, user do db, senha do db, e o nome do db
