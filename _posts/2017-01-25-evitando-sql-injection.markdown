@@ -154,7 +154,7 @@ if($stmt->execute()){
 ?>
 </code></pre>
 </div>
-<p>Esse é o código mais básico, mostrei ele somente para vocês terem uma idéia de como funciona o processo para manter as strings de queries limpas. Falta tratamento de erro e outras coiass, sendo assim o que mais indico é dar uma estudada na classe <a href="https://secure.php.net/manual/pt_BR/book.mysqli.php">mysqli</a> e fazer os seus testes !</p>
+<p>Esse é o código mais básico, mostrei ele somente para vocês terem uma idéia de como funciona o processo para manter as strings de queries limpas. Falta tratamento de erro e outras coisas, sendo assim o que mais indico é dar uma estudada na classe <a href="https://secure.php.net/manual/pt_BR/book.mysqli.php">mysqli</a> e fazer os seus testes !</p>
 
 <h3>Conclusão</h3>
 <p>Espero que tenham gostado do post, ele acabou sendo mais explicativo do que técnico porque muita gente ainda não sabe como funciona as injeções de sql e por isso deixam brechas abertas para pessoas mal intencionadas.</p>
