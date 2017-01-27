@@ -16,7 +16,7 @@ comments: true
 <p>Temos muitas <b>pseudo-classes</b> e pouco tempo, vamos tacar o pau nesse carrinho !</p>
 
 <h3>pseudo-classes</h3>
-<p>As <p>pseudo-classes</p> do css são todas as propriedades que começam com :<i>(dois pontos)</i>, tipo os mais comuns como <i>:hover</i>, <i>:active</i> e <i>:focus</i>, apesar de geralmente estarem acompanhadas de outros seletores normais tipo classes, ids ou elementos, elas também podem ser usadas separadamente, como o exemplo do <i>:root</i>.</p>
+<p>As <b>pseudo-classes</b> do css são todas as propriedades que começam com :<i>(dois pontos)</i>, tipo os mais comuns como <i>:hover</i>, <i>:active</i> e <i>:focus</i>, apesar de geralmente estarem acompanhadas de outros seletores normais tipo classes, ids ou elementos, elas também podem ser usadas separadamente, como o exemplo do <i>:root</i>.</p>
 <p>No post de hoje, nós iremos ver as seguintes <b>pseudo-classes</b>:</p>
 <ul>
 	<li><a href="#active">:active</a></li>
