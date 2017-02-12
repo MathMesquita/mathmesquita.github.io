@@ -277,12 +277,13 @@ main
             border-radius: 3px
    
    .container
-      width: calc(100% - 26vw + 40px)
+      max-width: calc(100% - 26vw + 40px)
       position: relative
       margin: 0 auto
 
    article
       padding: 50px 20px
+      width: 860px
 
       > h3
          font-size: 30px
@@ -311,21 +312,21 @@ main
       > p, > ul, > ol
          margin-bottom: 20px
 
-      > ul, > ol
+      ul, ol
          padding-left: 25px
 
-      > ul li
+      ul > li
          list-style: square
          margin: 15px 0
 
-      > ol li
-         list-style-type: upper-roman
+      ol > li
+         list-style-type: lower-roman
          margin: 15px 0
          
-      p > b
+      p > b, p > strong
          font-weight: bold
       
-      p > i
+      p > i, p > em
          font-style: italic
 
       p > a, li > a
@@ -348,7 +349,7 @@ main
          display: block
          position: relative
          margin: 0 auto
-         max-width: 100%
+         max-width: 80%
 
    > div
       margin-bottom: 20px
