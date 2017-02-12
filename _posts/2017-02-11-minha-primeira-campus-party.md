@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Minha primeira Campus Party"
-image: "/assets/cp/cover.jpg"
+image: "/assets/cpbr/cover.jpg"
 date:   2017-02-11 08:00:00 -0200
 color_template: "etc"
 tags: etc CPBR
