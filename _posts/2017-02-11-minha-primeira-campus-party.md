@@ -118,6 +118,9 @@ Alguns *campuseiros* também distribuem brindes, e ficam informando no twitter p
 
 A noite ninguém para também, alguns ficam jogando, outros correndo pela arena com cadeiras em cima da cabeça *literalmente*, a todo momento os gritos de guerra são ouvidos e inclusive da para voce iniciar alguns.
 
+
+<div style="max-width:560px;margin:0 auto;"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmathmesquita.168%2Fvideos%2F1091313484311719%2F&show_text=1&width=560" width="560" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+
 Em alguns palcos e stands rolam shows de jazz, eletronica, rock, nacional, tem de tudo e pra todo mundo.
 
 Varias bancadas com just dance/karaoke/som tocando ficam pelo espaço, então realmente não tem como não se divertir em algum local !
