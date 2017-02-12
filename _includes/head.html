@@ -43,6 +43,8 @@
     <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}" />    
     <link rel="stylesheet" href="/assets/libs/styles/monokai-sublime.css" />
   {% endif %}
+
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   
   {% if page.color_template %}
     <link rel="stylesheet" href="{{ "/css/post.css" | relative_url }}">
@@ -52,7 +54,7 @@
   {% else %}
     <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
   {% endif %}
-  <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}"> -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}"> 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400" rel="stylesheet" />
   
