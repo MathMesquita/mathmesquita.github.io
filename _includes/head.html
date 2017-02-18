@@ -7,7 +7,7 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.resume | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.5">
-  <meta name="title" content="{{ page.title | default: site.title}}" />
+  <meta name="title" content='{{ page.title | default: site.title}}' />
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary_large_image">
