@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Programação Funcional \"for Dummies\""
+title: "Programação Funcional for Dummies"
 image: "/assets/fpjs/cover.jpg"
 date:   2017-02-17 08:00:00 -0200
 color_template: "javascript"
