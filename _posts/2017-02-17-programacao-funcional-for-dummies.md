@@ -14,7 +14,7 @@ comments: true
 
 Bom dia, boa tarde ou boa noite, o post que estou escrevendo hoje ja estava na lista de *"posts-to-do"* a um bom tempo.
 
-**Functional Programming** sempre foi uma daqueles tópicos que me deixava nervoso, porque achava ser algo super complicado e que eu nunca entenderia, mas quando tomei coragem, <strike>ou vergonha na cara</strike>, descobri que não é nenhum bicho de sete cabeças, mas tentam deixá-lo dificil *talvez para parecer algo mais robusto*, ja que ajuda em tantos pontos na sua aplicação.
+**Functional Programming** sempre foi um daqueles tópicos que me deixava nervoso, porque achava ser algo super complicado e que eu nunca entenderia, mas quando tomei coragem, <strike>ou vergonha na cara</strike>, descobri que não é nenhum bicho de sete cabeças, mas tentam deixá-lo dificil *talvez para parecer algo mais robusto*, ja que ajuda em tantos pontos na sua aplicação.
 
 Nesse post irei falar de uma maneira simples e direta, *sem frescuras*, o que é *FP*(Functional Programming) e quais suas vantagens frente a outros paradigmas de programação.
 
