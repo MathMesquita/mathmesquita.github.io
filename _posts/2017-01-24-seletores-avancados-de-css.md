@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Seletores avançados de CSS #1"
+title: "Os seletores CSS"
 image: "/assets/seletores-avancados-de-css/cover.jpg"
 date:   2017-01-24 08:00:00 -0200
 color_template: "css"
