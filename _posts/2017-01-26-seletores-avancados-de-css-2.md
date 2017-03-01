@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Seletores avançados de CSS #2"
+title: "Pseudo-classes de CSS"
 image: "/assets/seletores-avancados-de-css/cover2.jpg"
 date:   2017-01-25 08:00:00 -0200
 color_template: "css"
