@@ -266,7 +266,7 @@ export default UtilizoSoMinhasProps;
 
 Acho que não tem tradução para o termo *composable*, de forma que o sentido **continue bom tecnicamente falando**, de qualquer maneira, para você que não entendeu o que eu quis dizer com isso, deixe que eu explico.
 
-Você provavelmente ja deve conhecer *function composition*, que é basicamente uma função que recebe como parâmetro várias outras funções e retorna outra função que irá adiministrar o flow dos seus dados através das funções passadas anteriormente como parâmetro, se você não sabe, vou deixar [esse link](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0#.no44ztr0a), você da uma lida lá e volta aqui depois. *Infelizmente o link é em inglês, assim que eu fizer um post falando sobre function composition prometo voltar aqui e alterar o link*.
+Você provavelmente ja deve conhecer *function composition*, que é basicamente uma função que recebe como parâmetro várias outras funções e retorna outra função que irá adiministrar o flow dos seus dados através das funções passadas anteriormente como parâmetro, se você não sabe, vou deixar [esse link](https://mathmesquita.me/2017/03/12/function-composition-no-javascript.html), você da uma lida lá e volta aqui depois.
 
 Continuando, basicamente seu **HOC** será uma função correto? Se ele for um **HOC** simples como o do nosso exemplo, onde o único parâmetro passado é o componente que será *"temperado"*, então não precisamos esquentar muito a cabeça, ele ja está no que seria o **estágio final** de um **HOC** *composable*.
 
