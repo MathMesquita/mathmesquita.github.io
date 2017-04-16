@@ -206,6 +206,10 @@ E importante, claro, informar em sua página html a existência do seu arquivo *
 
 Teoricamente após fazermos isso tudo nós temos um PWA, mas é importante lembrar que outras preocupações devem ser tomadas, caso você utilize o plugin para chrome <a target="_blank" href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk">Lighthouse</a> poderá ver se seu site pode ser considerado um *progressive web app*, essas outras métricas são coisas como *tempo de load*, *tempo até o primeiro paint na tela*, *se é responsivo*, *se funciona com javascript desabilitado* etc. **LEMBRANDO** o mais importante de todos esses é ter a certificação SSL ! Faça seus usuários navegarem de forma segura bro ! :)
 
+### WEBPACK
+
+Para quem usa Webpack venho informar que não será necessário fazer esse arquivo manualmente sempre, utilizem o <a href="https://github.com/goldhand/sw-precache-webpack-plugin" target="_blank">sw-precache plugin</a> e comecem a cachear seu javascript e todo o resto imediatamente. :D
+
 ### Conclusão
 
 Tudo o que vimos aqui foi a parte mais complicada em ter um PWA, sites responsivos e *mobile-friendly* ja são uma realidade e eu creio que você já deve estar aplicando a um tempo, e espero de verdade que utilizem o plugin <a target="_blank" href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk">Lighthouse</a> para verificar como está o desempenho do seu site, ele é muito útil e te informa vários aspectos técnicos do seu app.
