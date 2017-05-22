@@ -281,6 +281,12 @@ Traduzindo:
 - Refatorar a unidade da melhor forma possível
 - Ir para o próximo teste/repetir os passos anteriores
 
+### React
+
+O **Jest** por ser um framework do facebook têm uma integração muito boa com o **React** inclusive ja vem instalado com o **create-react-app**, nesse caso ao criar um app via o comando você só tem que botar os arquivos de teste dentro de um diretório com o nome *__tests__* que eles serão executados automaticamente.
+
+[Nesse repositório](https://github.com/MathMesquita/swgame) vocês poderam encontrar um exemplo real de um projeto **React** com testes ! :D
+
 ### Conclusão
 
 O post introdutório fica por aqui, o **Jest** nos proporciona mais uma [penca de coisas](http://facebook.github.io/jest/docs/pt-BR/using-matchers.html#content) e olhar sua documentação é essencial, pois em um post seria impossível mostrar a quantidade de coisas possíveis de se fazer. Quem não sabe inglês não se preocupe pois recentemente a documentação foi toda traduzida para o português brasileiro ! Caso você saiba inglês e queira ajudar a traduzir enquanto aprende é só [clicar aqui](https://crowdin.com/project/jest) e ajudar a revisar.
