@@ -202,6 +202,32 @@ E importante, claro, informar em sua página html a existência do seu arquivo *
 </code></pre>
 </div>
 
+### E quando os arquivos forem substituídos?
+
+Sim, você talvez tenha feito essa pergunta, e ela faz sentido caso você esteja preocupado com a experiência do seu usuário, basicamente até o momento nós registramos nosso **SW** e ele só será substituído pelo novo quando o usuário der refresh na página, mas *como ele vai saber se existe uma atualização nova nos arquivos?* Aí que entra o [oncontrollerchange](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/oncontrollerchange), que irá avisar ao nosso browser que existe um novo worker ativo e dessa forma você poderá mostrar isso ao usuário da maneira que julgar melhor. 
+
+<div class="code javascript">
+  <span class="file-name">app.js</span>
+<pre><code>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+            .register('./service-worker.js')
+              .then(function() { console.log('Service Worker registrado ! :)'); })
+              .catch(function(e) { console.error(e); });
+
+  navigator.serviceWorker.oncontrollerchange = function(controllerchangeevent) {
+    // aqui dentro podemos disparar algum evento em uma 
+    //  store por exemplo para o usuário saber que existe
+    //  novas funcionalidades esperando pelo seu refresh
+    alert("Atualize sua página para ter acesso a um conteúdo mais novo");  
+  }
+}
+
+</code></pre>
+</div>
+
+Lembrando que esse evento ta com a tag **WD***(Working Draft)* e pode sofrer alterações no futuro, mas não se preocupe pois nada irá quebrar caso você a use.
+
 ### Outras coisas importantes
 
 Teoricamente após fazermos isso tudo nós temos um PWA, mas é importante lembrar que outras preocupações devem ser tomadas, caso você utilize o plugin para chrome <a target="_blank" href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk">Lighthouse</a> poderá ver se seu site pode ser considerado um *progressive web app*, essas outras métricas são coisas como *tempo de load*, *tempo até o primeiro paint na tela*, *se é responsivo*, *se funciona com javascript desabilitado* etc. **LEMBRANDO** o mais importante de todos esses é ter a certificação SSL ! Faça seus usuários navegarem de forma segura bro ! :)
