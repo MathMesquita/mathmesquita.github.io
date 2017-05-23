@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Let's test with jest"
+title: "Testes unitários com JEST !"
 image: "/assets/jest/cover.jpg"
 date:   2017-05-21 08:00:00 -0200
 color_template: "javascript"
