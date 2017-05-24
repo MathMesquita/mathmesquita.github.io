@@ -285,7 +285,7 @@ Traduzindo:
 
 O **Jest** por ser um framework do facebook têm uma integração muito boa com o **React** inclusive ja vem instalado com o **create-react-app**, nesse caso ao criar um app via o comando você só tem que botar os arquivos de teste dentro de um diretório com o nome *__tests__* que eles serão executados automaticamente.
 
-[Nesse repositório](https://github.com/MathMesquita/swgame) vocês poderam encontrar um exemplo real de um projeto **React** com testes ! :D
+[Nesse repositório](https://github.com/MathMesquita/swgame) vocês poderão encontrar um exemplo real de um projeto **React** com testes ! :D
 
 ### Conclusão
 
