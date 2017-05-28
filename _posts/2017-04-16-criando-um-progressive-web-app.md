@@ -12,7 +12,7 @@ comments: true
 
 ### Introdução
 
-Faaaaaaala *garela* ! Bom dia, tarde ou noite, parabéns por ter clicado nesse post e ter se interessado por oferecer uma melhor experiência aos seus usuários, deixando seus web-apps em outro patamar, após você ler o post provavelmente vai utilizar isso em todo novo app novo que você fizer, e o melhor é que quem irá te agradecer por isso serão seus usuários !
+Faaaaaaala *garela* ! Bom dia, tarde ou noite, parabéns por ter clicado nesse post e ter se interessado por oferecer uma melhor experiência aos seus usuários, deixando seus web-apps em outro patamar, após você ler o post provavelmente vai utilizar isso em todo app novo que você fizer, e o melhor é que quem irá te agradecer por isso serão seus usuários !
 
 Sabendo sobre <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#invalidar_e_atualizar_respostas_armazenadas_em_cache" target="_blank">como funciona o cache</a>, nós ja fazemos alterações no server, adição de hashs para forçar o download de novas versões de nossos arquivos, e separamos nossos files para não precisar ser tudo baixado em conjunto.
 
