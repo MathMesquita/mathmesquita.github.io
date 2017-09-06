@@ -2,7 +2,7 @@
 layout: post
 title: "A Comunidade, meu blog e um bosta(eu)"
 image: "/assets/jest/cover.jpg"
-date:   2017-05-21 08:00:00 -0200
+date:   2017-09-06 00:00:00 -0200
 color_template: "etc"
 tags: blog
 resume: O que a comunidade me proporcionou e o que eu quero devolver
