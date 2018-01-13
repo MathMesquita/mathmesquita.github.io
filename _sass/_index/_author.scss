@@ -3,6 +3,10 @@
   align-items: center;
   max-width: 50rem;
   width: 100%;
+
+  @media (max-width: 52rem) {
+    flex-direction: column;
+  }
 }
 .author-thumb {
   width: 13.5rem;
@@ -41,6 +45,15 @@
   background-image: linear-gradient(to bottom, transparent 55%, $mainColor 55%, $mainColor 90%, transparent 90%);
   padding-right: 1.5rem;
   padding-left: 0.5rem;
+  @media (max-width: 52rem) {
+    margin-left: 0;
+  }
+  @media (max-width: 36rem) {
+    font-size: 2rem;
+  }
+  @media (max-width: 24rem) {
+    text-align: center;
+  }
 }
 
 .author-resume .author-thumb::after,
@@ -53,6 +66,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  @media (max-width: 52rem) {
+    margin-top: 1rem;
+  }  
 }
 .author-resume .author-name {
   text-shadow:
@@ -77,5 +93,9 @@
   > a {
     color: inherit;
     text-decoration: none;
+  }
+
+  @media (max-width: 52rem) {
+    margin-left: 0;
   }
 }

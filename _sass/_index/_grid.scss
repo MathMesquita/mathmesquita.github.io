@@ -9,6 +9,11 @@
   ". posts ."
   "author author author"
   "footer footer footer" ;
+
+  @media (max-width: 52rem) {
+    display: block;
+    padding: 0 1rem;
+  }
 }
 
 .blog-header,
@@ -26,12 +31,18 @@
   display: flex;
   font-family: $secondaryFont;
   padding: 2rem 0;
+  @media (max-width: 52rem) {
+    padding: 1rem 0;
+  }
 }
 
 .post-content,
 .blog-posts {
   grid-area: posts;
   margin-top: 2rem;
+  @media (max-width: 36rem) {
+    margin-top: 1rem;
+  }
 }
 
 .blog-sidebar {
@@ -45,6 +56,12 @@
   justify-content: center;
   padding: 1rem;
   background-color: $black;
+  
+  @media (max-width: 52rem) {
+    flex-direction: column;
+    margin: 0 -1rem;
+    align-items: center;
+  }
 }
 
 .blog-footer {
@@ -56,4 +73,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 52rem) {
+    margin: 0 -1rem;
+    padding: 0.5rem 0;
+  }  
 }

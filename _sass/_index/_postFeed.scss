@@ -1,16 +1,24 @@
 
-.blog-post {
+.feed-post {
   max-width: 50rem;
   margin: 0 auto;
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
   padding-left: 0.5rem;
+  border-left: 0.5rem solid;
+  @media (max-width: 36rem) {
+    border-left: 0.4rem solid;
+    padding-bottom: 0.5rem;
+  }
 }
 .post-title > a {
   font-family: $primaryFont;
   font-size: 1.5rem;
   color: $black;
   text-decoration: none;
+  @media (max-width: 36rem) {
+    font-size: 1.2rem;
+  }
 }
 .post-title > a:visited {
   color: $grey;
@@ -21,6 +29,12 @@
 .post-type{
   font-family: $primaryFont;
   padding: 0rem 0.2rem;
+  display: inline-block;
+  &::before {
+    @media (max-width: 36rem) {
+      font-size: 1.2rem;
+    }
+  }
 }
 .post-date {
   display: block;
@@ -29,11 +43,16 @@
   margin: 0.5rem 0;
   font-family: $secondaryFont;
 }
-.post-content {
+.feed-postContent {
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
-  margin-bottom: 1.2rem;
+  margin: 1.2rem 0;
   line-height: 1.4;
+  @media (max-width: 36rem) {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
 }
 .post-tags {
   display: flex;
@@ -48,8 +67,8 @@
 }
 
 @mixin colorifyByTypeOfPost($type, $text, $lightColor, $darkColor) {
-  .blog-post.--#{$type} {
-    border-left: 0.5rem solid $lightColor;
+  .feed-post.--#{$type} {
+    border-color: $lightColor;
     
     .post-title > a:hover {
       color: $lightColor;
