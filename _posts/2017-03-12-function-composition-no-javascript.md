@@ -6,7 +6,7 @@ date:   2017-03-12 08:00:00 -0200
 color_template: "javascript"
 tags: FP javascript avançado
 resume: "Comece a compor filas de funções para dar um próximo passo na utilização de programação funcional."
-topic: javascript
+topic: js
 comments: true
 ---
 

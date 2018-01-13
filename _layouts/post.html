@@ -1,19 +1,33 @@
 ---
 layout: default
 ---
-  {% include minutes-to-read.html %}
-  <header id='blog-title'>
-    <div class="container">
-      <h2>{{ page.title }}</h2>
-      <p>{{ page.resume }}</p>
-      <span>{{ page.date | date: "%-d / %m / %Y" }} - <span>{{ minutesText }}</span></span>
+{% include minutes-to-read.html %}
+
+{% include nav.html %}
+
+<header class="post-header --{{ page.topic }}">
+  <div class="post-header__container">
+    <figure class="post-stamp"></figure>
+    <div class="post-info__wrapper">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <span class="post-date">{{ page.date | date: "%d / %m / %Y" }} - {{ minutesText }}</span>
+      <div class="social">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="social-link social-facebook"><span>Facebook</span></a>
+        <a target="_blank" href="https://twitter.com/home?status={{ site.url }}{{ page.url }}" class="social-link social-twitter"><span>Twitter</span></a>
+        <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" class="social-link social-linkedin"><span>LinkedIn</span></a>
+      </div>
     </div>
-  </header>
+  </div>
+</header>
 
-  <article class='container'>
-    {{ content }}
-  </article>
+<main class="post-content --{{ page.topic }}">
+  {{ content }}
 
-  {% if site.disqus.shortname %}
+  <section class="post-comments">
     {% include disqus_comments.html %}
-  {% endif %}
+  </section>
+</main>
+
+{% include author.html %}
+
+{% include footer.html %}

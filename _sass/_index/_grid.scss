@@ -1,0 +1,59 @@
+.grid__wrapper {
+  background-color: $white;
+  display: grid;
+  grid-template-columns: minmax(1rem, 1fr) 50rem minmax(1rem, 1fr);
+  grid-template-rows: auto minmax(250px, 25vh) auto auto 50px;
+  grid-template-areas:
+  ". menu ."
+  ". header ."
+  ". posts ."
+  "author author author"
+  "footer footer footer" ;
+}
+
+.blog-header,
+.post-header {
+  grid-area: header;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-menu {
+  grid-area: menu;
+  display: flex;
+  font-family: $secondaryFont;
+  padding: 2rem 0;
+}
+
+.post-content,
+.blog-posts {
+  grid-area: posts;
+  margin-top: 2rem;
+}
+
+.blog-sidebar {
+  grid-area: sidebar;
+  margin-top: 1rem;
+}
+
+.author-resume {
+  grid-area: author;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: $black;
+}
+
+.blog-footer {
+  grid-area: footer;
+  background-color: $mainColor;
+  color: $black;
+  font-family: $secondaryFont;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

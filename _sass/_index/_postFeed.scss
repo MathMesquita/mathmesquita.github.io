@@ -1,0 +1,77 @@
+
+.blog-post {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: 0.5rem;
+}
+.post-title > a {
+  font-family: $primaryFont;
+  font-size: 1.5rem;
+  color: $black;
+  text-decoration: none;
+}
+.post-title > a:visited {
+  color: $grey;
+}
+.post-title > a:hover {
+  text-decoration: underline;
+}
+.post-type{
+  font-family: $primaryFont;
+  padding: 0rem 0.2rem;
+}
+.post-date {
+  display: block;
+  font-size: 1rem;
+  color: $black;
+  margin: 0.5rem 0;
+  font-family: $secondaryFont;
+}
+.post-content {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.4;
+}
+.post-tags {
+  display: flex;
+}
+.post-tag {
+  font-family: Helvetica, sans-serif;
+  list-style: none;
+  display: inline-block;
+  padding: 0.15rem 0.4rem;
+  margin-right: 0.3rem;
+  font-size: 0.9rem;
+}
+
+@mixin colorifyByTypeOfPost($type, $text, $lightColor, $darkColor) {
+  .blog-post.--#{$type} {
+    border-left: 0.5rem solid $lightColor;
+    
+    .post-title > a:hover {
+      color: $lightColor;
+    }
+    .post-type {
+      background-color: $lightColor;
+      color: $darkColor;
+      &::before{
+        text-transform: uppercase;
+        content: '- #{$text}';
+      }
+    }
+    .post-tag {
+      background-color: $lightColor;
+      color: $darkColor;
+    }
+  }
+}
+
+@include colorifyByTypeOfPost('css', 'CSS', $css, $cssInverted);
+@include colorifyByTypeOfPost('etc', 'ETC', $etc, $etcInverted);
+@include colorifyByTypeOfPost('js', 'JAVASCRIPT', $js, $jsInverted);
+@include colorifyByTypeOfPost('react', 'REACTJS', $react, $reactInverted);
+@include colorifyByTypeOfPost('canvas', 'CANVAS', $canvas, $canvasInverted);
+@include colorifyByTypeOfPost('sql', 'SQL', $sql, $sqlInverted);

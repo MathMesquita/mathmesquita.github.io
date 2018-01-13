@@ -6,7 +6,7 @@ date:   2017-03-05 08:00:00 -0200
 color_template: "javascript"
 tags: gulp javascript básico
 resume: "Gulp explicado de forma simples e com um exemplo que ja pode ser aplicado no seu cotidiano utilizando sass."
-topic: javascript
+topic: js
 comments: true
 ---
 

@@ -1,0 +1,81 @@
+.blog-author__wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 50rem;
+  width: 100%;
+}
+.author-thumb {
+  width: 13.5rem;
+  height: 13.5rem;
+  background-size: cover;
+  position: relative;
+}
+.author-thumb::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 4.5rem solid transparent;
+  border-left: 4.5rem solid $white;
+  border-right: 4.5rem solid $white;
+}
+.author-thumb::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 4.5rem solid transparent;
+  border-left: 4.5rem solid $white;
+  border-right: 4.5rem solid $white;
+}
+.author-thumb img {
+  width: 100%;
+}
+.author-name {
+  font-family: $primaryFont;
+  font-size: 3rem;
+  margin-left: 1.5rem;
+  color: $black;
+  background-image: linear-gradient(to bottom, transparent 55%, $mainColor 55%, $mainColor 90%, transparent 90%);
+  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.author-resume .author-thumb::after,
+.author-resume .author-thumb::before {
+  border-left-color: $black;
+  border-right-color: $black;
+}
+.author-info__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.author-resume .author-name {
+  text-shadow:
+    -1px -1px 0 $mainColor,  
+    1px -1px 0 $mainColor,
+    -1px 1px 0 $mainColor,
+      1px 1px 0 $mainColor;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.author-about {
+  font-family: $secondaryFont;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: $black;
+  background-color: $mainColor;
+  max-width: 40rem;
+  margin-left: 1.5rem;
+  line-height: 1.4;
+  padding: 0.5rem;
+
+  > a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

@@ -1,48 +1,14 @@
-    
-    {% if page.color_template %}
-      <input type="checkbox" id="toggleHeader">
-    {% else %}
-      <input type="checkbox" id="toggleHeader" checked>
-    {% endif %}
-    <label for="toggleHeader" id='toggleBtn'>
-      <div class="menu"></div>
-    </label>
-
-    <header>
-      <div class="thumb">
-        <a href="/">
-          <img src="/assets/my-image.jpg" alt="">
-        </a>
+<header class="blog-header">
+  <div class="blog-author__wrapper">
+    <figure class="author-thumb"><img src="/assets/my-image.jpg" alt="Autor do blog realizando palestra durante o Google DevFest Rio de Janeiro" /></figure>
+    <div class="author-info_wrapper">
+      <h1 class="author-name">Matheus Mesquita</h1>
+      <div class="social">
+        <a target="_blank" href="https://github.com/{{ site.github_username }}" class="social-link social-github"><span>Github</spa></a>
+        <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="social-link social-twitter"><span>Twitter</spa></a>
+        <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="social-link social-linkedin"><span>LinkedIn</spa></a>
+        <a target="_blank" href="mailto:{{ site.email }}" class="social-link social-email"><span>Email</spa></a>
       </div>
-      
-      <a href="/"><h1>{{ site.title | xml_escape }}</h1></a>
-      
-      <nav>
-        <ul>
-          <li><a href="/">Blog</a></li>
-        {% for page in site.pages %}
-          {% if page.title %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-        </ul>
-      </nav>
-
-      <footer>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        <div class="social">
-          <a href="https://www.facebook.com/{{ site.facebook_username }}">
-            <img class='icon' src="/assets/facebook-logo-button.svg" alt="">
-          </a>
-          <a href="https://github.com/{{ site.github_username }}">
-            <img class='icon' src="/assets/github-logo.svg" alt="">
-          </a>
-          <a href="https://twitter.com/{{ site.twitter_username }}">
-            <img class='icon' src="/assets/twitter-logo-button.svg" alt="">
-          </a>
-          <a href="/sobre">
-            <img class='icon' src="/assets/heart.svg" alt="">
-          </a>
-        </div>
-      </footer>
-    </header>
+    </div>
+  </div>
+</header>

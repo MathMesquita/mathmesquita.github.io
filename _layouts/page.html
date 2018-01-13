@@ -2,13 +2,11 @@
 layout: default
 ---
 
-	<header id='blog-title'>
-		<div class="container">
-			<h2>{{ page.title }}</h2>
-			<p>{{ page.resume }}</p>
-		</div>
-	</header>
+{% include nav.html %}
+{% include header.html %}
 
-	<article class='container'>
-		{{ content }}
-	</article>
+<main class="post-content --css">
+	{{ content }}
+</main>
+
+{% include footer.html %}

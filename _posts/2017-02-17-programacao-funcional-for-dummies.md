@@ -6,7 +6,7 @@ date:   2017-02-17 08:00:00 -0200
 color_template: "javascript"
 tags: javascript hard
 resume: "Todos estão falando sobre, mas o que é isso? Venha descobrir de maneira for dummies algo que não é nada complicado"
-topic: javascript
+topic: js
 comments: true
 ---
 

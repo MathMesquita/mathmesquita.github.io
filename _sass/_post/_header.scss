@@ -1,0 +1,77 @@
+.post-header__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.post-stamp {
+  width: 13.5rem;
+  min-width: 13.5rem;
+  height: 13.5rem;
+  min-height: 13.5rem;
+  position: relative;
+}
+.post-stamp::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 4.5rem solid transparent;
+  border-left: 4.5rem solid $white;
+  border-right: 4.5rem solid $white;
+}
+.post-stamp::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 4.5rem solid transparent;
+  border-left: 4.5rem solid $white;
+  border-right: 4.5rem solid $white;
+}
+
+.post-info__wrapper::before {
+  text-transform: uppercase;
+  font-family: $primaryFont;
+  margin-left: 1.5rem;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.post-title {
+  font-family: $primaryFont;
+  font-size: 2.75rem;
+  color: $black;
+  margin-left: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+.post-date {
+  font-family: $primaryFont;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+@mixin colorifyByTypeOfPost($type, $text, $lightColor, $darkColor) {
+  .post-header.--#{$type} {
+    .post-stamp {
+      background-color: $lightColor;
+    }
+
+    .post-info__wrapper::before {
+      background-color: $lightColor;
+      color: $darkColor;
+      content: '#{$text}';
+    }
+  }
+}
+
+@include colorifyByTypeOfPost('css', 'CSS', $css, $cssInverted);
+@include colorifyByTypeOfPost('etc', 'ETC', $etc, $etcInverted);
+@include colorifyByTypeOfPost('js', 'JAVASCRIPT', $js, $jsInverted);
+@include colorifyByTypeOfPost('react', 'REACTJS', $react, $reactInverted);
+@include colorifyByTypeOfPost('canvas', 'CANVAS', $canvas, $canvasInverted);
+@include colorifyByTypeOfPost('sql', 'SQL', $sql, $sqlInverted);

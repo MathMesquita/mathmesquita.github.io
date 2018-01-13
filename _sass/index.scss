@@ -1,0 +1,21 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+@import '_index/variables';
+@import '_index/grid';
+@import '_index/author';
+@import '_index/navigation';
+@import '_index/postFeed';
+@import '_index/social';
+@import '_post/content';

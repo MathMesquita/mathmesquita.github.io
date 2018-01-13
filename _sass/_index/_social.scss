@@ -1,0 +1,54 @@
+.social {
+  margin-bottom: 1rem;
+  display: flex;
+  margin-left: 1.5rem;
+}
+
+.social-link {
+  font-family: $secondaryFont;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.25rem;
+  display: block;
+  text-decoration: none;
+  color: $black;
+  overflow: hidden;
+  position: relative;
+  margin-right: 0.5rem;
+  &:last-child {margin-right: 0;}
+}
+.social-link span {z-index: 2;position: relative;}
+.social-link::before {
+  content: '';
+  position: absolute;
+  width: 1rem;
+  height: 100%;
+  top: 0;
+  left: -1rem;
+  transform: skew(-10deg);
+  transform-origin: bottom left;
+  background-color: $mainColor;
+  z-index: 0;
+  transition: 0.25s ease left, 0.1s linear width;
+}
+.social-link:hover::before {
+  width: 100%;
+  left: calc(100% - 1rem);
+}
+
+@mixin socialColorByNetwork($name, $bgcolor, $color) {
+  .social-#{$name}{
+    &:hover {
+      color: $color;
+    }
+
+    &::before {
+      background-color: $bgcolor;
+    }
+  }
+}
+
+@include socialColorByNetwork("github", #4078c0, #4078c0);
+@include socialColorByNetwork("twitter", #1dcaff, #1dcaff);
+@include socialColorByNetwork("linkedin", #0077B5, #0077B5);
+@include socialColorByNetwork("email", #c71610, #c71610);
+@include socialColorByNetwork("facebook", 	#3b5998, 	#3b5998);

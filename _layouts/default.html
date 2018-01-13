@@ -4,63 +4,14 @@
   {% include head.html %}
 
   <body>
-    {% include header.html %}
-    
-    <main id='main'>
+    <div class='grid__wrapper'>
       {{ content }}
-      
-      <article class="container">
-        {% include disqus_comments.html %}
-      </article>
-
-      {% include footer.html %}
-    </main>
+    </div>
 
     {% if page.color_template %}
-      {% if page.topic %}
-        <script src="/assets/libs/highlight.pack.js"></script>
-        <script>
-          hljs.initHighlightingOnLoad();
-        </script>
-      {% endif %}
+      <script src="/assets/libs/highlight.pack.js"></script>
       <script>
-
-        window.addEventListener('scroll', function(e){
-          var scrollPos = e.target.scrollingElement.scrollTop;
-
-          menuColor(scrollPos);
-
-          scaleTitle(scrollPos);
-
-        });
-
-        function menuColor(scrollPos){
-          var header = document.querySelector('#blog-title');
-          var maxScrollPosition = header.clientHeight - (header.clientWidth*0.13);
-
-          var menuBtn = document.querySelector('#toggleBtn');
-          var classQuant = menuBtn.classList.length;
-
-          if (scrollPos >= maxScrollPosition && classQuant == 0) {
-            menuBtn.classList += '_invert';
-          }else if(scrollPos < maxScrollPosition && classQuant > 0){
-            menuBtn.classList = '';
-          }
-        }
-
-        function scaleTitle(scrollPos){
-          var header = document.querySelector('#blog-title');
-          var headerContainer = document.querySelector('#blog-title .container');
-          
-          var hToFinish = header.clientHeight - scrollPos;
-
-          var percent = hToFinish/header.clientHeight;
-
-          if (percent >= 0) {
-            headerContainer.style.transform = "scale("+percent+") translateY("+((1 - percent)*(header.clientHeight))+"px)";       
-            headerContainer.style.opacity = percent;  
-          }
-        }
+        hljs.initHighlightingOnLoad();
       </script>
     {% endif %}
   </body>

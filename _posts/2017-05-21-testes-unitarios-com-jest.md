@@ -6,7 +6,7 @@ date:   2017-05-21 08:00:00 -0200
 color_template: "javascript"
 tags: tests javascript intermediário jest
 resume: O post pra quem sabe que precisa testar seu código, mas não tem idéia por onde começar !
-topic: javascript
+topic: js
 comments: true
 ---
 

@@ -6,7 +6,7 @@ date:   2017-04-16 08:00:00 -0200
 color_template: "javascript"
 tags: PWA javascript intermediário
 resume: Você sabe o que é um PWA? não? Então bora aprender do melhor jeito, fazendo um !
-topic: javascript
+topic: js
 comments: true
 ---
 

@@ -1,0 +1,8 @@
+<nav class="blog-menu">
+  <a class="blog-menuLink" href="/"><span>Blog</span></a>
+  {% for page in site.pages %}
+    {% if page.title %}
+      <a class="blog-menuLink" href="{{ page.url }}"><span>{{ page.title }}</span></a>
+    {% endif %}
+  {% endfor %}
+</nav>

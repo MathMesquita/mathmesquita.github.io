@@ -6,7 +6,7 @@ date:   2017-01-18 08:00:00 -0200
 color_template: "javascript"
 tags: javascript reflexao
 resume: "Ja parou para refletir se o jquery é realmente necessário no seu site? Um papo sobre como devemos nos preocupar com cada kb."
-topic: javascript
+topic: js
 comments: true
 ---
 
