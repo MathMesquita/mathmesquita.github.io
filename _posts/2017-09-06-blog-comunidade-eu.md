@@ -62,7 +62,9 @@ Não minto que esse número poderia ter sido muito maior, e até o final do ano 
 
 ### O Bosta
 
-Prazer, ainda sou um bosta e não me envergonho disso, pois só reconhecendo minha situação posso me preocupar em tentar sair dela, *e espero nunca sair*, pois definitivamente isso se torna um gás nos momentos difíceis como todo os dias as 4 a.m. que acordo para ir trabalhar no emprego que fiz 3 meses hoje! *Falei que meu sumiço tinha motivo. :p* 
+Prazer, ainda sou um bosta - link da talk logo abaixo - e não me envergonho disso, pois só reconhecendo minha situação posso me preocupar em tentar sair dela, *e espero nunca sair*, pois definitivamente isso se torna um gás nos momentos difíceis como todo os dias as 4 a.m. que acordo para ir trabalhar no emprego que fiz 3 meses hoje! *Falei que meu sumiço tinha motivo. :p* 
+
+<iframe width="560" height="315" style="margin:0 auto;max-width: 100%;display: block;" src="https://www.youtube.com/embed/G8Fa8oVnakM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 A 3 meses atrás fui contratado para trabalhar na [B2W Digital](http://somos.b2wdigital.com/), dona de marcas como [americanas.com](https://www.americanas.com.br/), [Submarino](https://www.submarino.com.br/) e [Shoptime](https://www.submarino.com.br/)*(sim a da tv, a do Bottini)*, lá to fazendo parte da equipe de **Checkout** que tem um *mindset* muito parecido com o meu e me fez me sentir em casa desde o primeiro dia que eu sentei lá na baia. No futuro, *(talvez daqui a 1 semana?)*, farei um post sobre como foi todo o processo e como é trabalhar na empresa líder de e-commerce da américa latina. [*Inclusive tem vagas abertas ainda.*](http://somos.b2wdigital.com/bit/)
 
