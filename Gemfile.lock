@@ -5,9 +5,9 @@ GEM
       execjs
     colorator (1.1.0)
     execjs (2.7.0)
-    ffi (1.9.17)
-    ffi (1.9.17-x64-mingw32)
-    ffi (1.9.17-x86-mingw32)
+    ffi (1.12.2)
+    ffi (1.12.2-x64-mingw32)
+    ffi (1.12.2-x86-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.2.1)
       colorator (~> 1.0)
